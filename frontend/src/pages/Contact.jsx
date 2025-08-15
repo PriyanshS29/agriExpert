@@ -26,7 +26,6 @@
 // }
 
 // export default Contact
-import React from 'react'
 import { assets } from '../assets/assets'
 
 const Contact = () => {
@@ -49,21 +48,17 @@ const Contact = () => {
         {/* Contact Info */}
         <div className="flex flex-col justify-center gap-6 md:w-2/4 text-lg text-gray-700 leading-relaxed">
           <p className="text-lg font-semibold text-gray-600">Get in Touch</p>
-          <p className="opacity-100">We'd love to hear from you! Whether you have a question or need support, feel free to reach out to us directly.</p>
+          <p className="opacity-100"> We would  love to hear from you! Whether you have a question or need support, feel free to reach out to us directly.</p>
           
           {/* Phone and Email */}
           <div className="mt-6">
             <p className="font-semibold text-xl text-gray-800">Contact Details</p>
-            <p className="opacity-100">Phone: (415) 555-0132</p>
-            <p className="opacity-100">Email: greatstackdev@gmail.com</p>
+            <p className="opacity-100">Phone: 965538464</p>
+            <p className="opacity-100">Email: aabbccddee@gmail.com</p>
           </div>
 
           {/* Button */}
-          <div className="mt-6">
-            <button className="border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500 rounded-lg shadow-lg hover:shadow-2xl">
-              Send Us a Message
-            </button>
-          </div>
+        
         </div>
       </div>
 
